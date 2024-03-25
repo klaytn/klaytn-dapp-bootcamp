@@ -8,5 +8,6 @@
 4. Advanced: Các kiến thức nâng cao trong Solidity.
 5. Contracts: Tìm hiểu sâu về testing và Foundary framework.
 6. Practice: Những bài tập cho bạn để mài dũa kỹ năng.
+7. Final: Bài kiểm tra cuối khoá
 
 ## Phần 2 - Frontend
