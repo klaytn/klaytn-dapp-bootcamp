@@ -17,6 +17,12 @@ Nội dung được chia ra 2 phần:
    - Advanced: Các kiến thức nâng cao trong Solidity.
    - Contracts: Tìm hiểu sâu về testing và Foundary framework.
    - Practice: Những bài tập cho bạn để mài dũa kỹ năng.
-   - Final: Bài kiểm tra cuối khoá
+   - Final: Bài kiểm tra cuối khoá.
 2. Frontend
-  - 
+  - Intro: Giới thiệu về UI cho DApp.
+  - SetUp: Thiết lập môi trường và các công cụ bạn sẽ sử dụng cho phát triển giao diện DApp.
+  - Basic: Các kiến thức căn bản về frameworks, thư viện wagmi và rainbowkit.
+  - Advanced: Tìm hiểu sâu về Transaction lifecycle và các phương án cải thiện UX.
+  - FundMe: Xây dựng giao diện cho FundMe contract
+  - Practice: Những bài tập cho bạn để mài dũa kỹ năng.
+  - FinalTest: Bài kiểm tra cuối khoá.
