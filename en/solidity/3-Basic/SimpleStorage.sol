@@ -4,28 +4,28 @@ pragma solidity ^0.8.20;
 
 contract SimpleStorage {
 
-    // Khai báo các biến liên quan đến người sáng lập
+    // Declare a variable to store the name of the maintainer
     string public maintainerName = "zxstim";
-    // Khai báo phiên bản của contract
+    // Declare the version of the contract
     uint8 public version = 1;
-    // Địa chỉ nhận quyên góp
+    // Declare an address to receive donation
     address public donationAddress = 0xe3d25540BA6CED36a0ED5ce899b99B5963f43d3F;
 
-    // Khai báo cấu trúc Person
+    // Declare a Person type to store information of a person
     struct Person {
-        string name; // Tên
-        uint8 age; // Tuổi
-        bool overEighteen; // Đủ 18 tuổi
+        string name; // name    
+        uint8 age; // age
+        bool overEighteen; // Over eighteen?
         address uuid; // UUID
-        uint256 assetValue; // Giá trị tài sản
-        int256 debtValue; // Giá trị nợ
+        uint256 assetValue; // asset value
+        int256 debtValue; // debt value
     }
 
-    Person[] private listOfPeople; // syntax này có nghĩa là tạo một Array chứa các Person tên là listOfPeople
+    Person[] private listOfPeople; // this syntax means creating an array to store Person named listOfPeople
     
-    mapping(address => Person) uuidToPerson; // syntax này có nghĩa là tạo một mapping từ address sang Person tên là uuidToPerson
+    mapping(address => Person) uuidToPerson; // this syntax means creating a mapping from address to Person named uuidToPerson
 
-    // function lưu thông tin của 1 person mới với các thông tin như name, age, overEighteen, assetValue, debtValue
+    //  this function will store the information of a new person with name, age, overEighteen, assetValue, debtValue
     function storePerson(string memory _name, uint8 _age, bool _overEighteen, uint256 _assetValue, int256 _debtValue) public returns (Person memory person) {
         _assetValue *= 1e18; // Chuyển đổi giá trị tài sản sang đơn vị wei
         _debtValue *= 1e18; // Chuyển đổi giá trị nợ sang đơn vị wei
@@ -36,7 +36,7 @@ contract SimpleStorage {
         return Person({name: _name, age: _age, overEighteen: _overEighteen, uuid: msg.sender, assetValue: _assetValue, debtValue: _debtValue});
     }
 
-    // function lấy thông tin của 1 person dựa trên địa chỉ
+    // this function will retrieve the information of a person based on the address
     function retrievePerson(address _address) public view returns (Person memory person) {
         return uuidToPerson[_address];
     }
