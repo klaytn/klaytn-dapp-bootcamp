@@ -2,31 +2,31 @@
 
 ![DApp Bootcamp](../klaytn-dapp-bootcamp.webp)
 
-## Giới thiệu
-​DApp Bootcamp là một chương trình đào tạo đặc biệt được thiết kế dành riêng cho các lập trình viên muốn mở rộng kiến thức và kỹ năng của mình trong lĩnh vực phát triển ứng dụng Web3. Qua chương trình này, bạn sẽ được trải nghiệm một lộ trình học tập bài bản, từ cơ bản đến nâng cao, về công nghệ blockchain, smart contracts, và cách thức xây dựng DApp hiệu quả. Đặc biệt, Bootcamp còn cung cấp cơ hội thực hành trực tiếp trên các dự án thực tế, giúp học viên không chỉ nắm vững kiến thức lý thuyết mà còn rèn luyện kỹ năng áp dụng vào thực tiễn, mở ra nhiều cơ hội nghề nghiệp trong tương lai.
+## Introduction
+The DApp Bootcamp is a specialized training program designed specifically for developers eager to expand their knowledge and skills in the realm of decentralized application development. Through this program, participants will embark on a structured learning journey, from basics to advanced levels, on blockchain technology, smart contracts, and efficient DApp development methods. Importantly, the Bootcamp also offers hands-on experience on actual projects, allowing learners not just to grasp theoretical knowledge but also to hone their practical skills, opening up numerous future career opportunities.
 
-## Giảng viên
+## Instructor
 - [@zxstim](https://github.com/zxstim)
 
-## Nội dung
-Nội dung được chia ra 2 phần:
+## Content
+The content is divided into 2 parts:
 1. Solidity
-   - Intro: Giới thiệu về Klaytn và căn bản blockchain.
-   - SetUp: Thiết lập môi trường và các công cụ bạn sẽ sử dụng cho phát triển DApp.
-   - Basic: Các kiến thức căn bản trong Solidity.
-   - Advanced: Các kiến thức nâng cao trong Solidity.
-   - Contracts: Tìm hiểu sâu về testing và Foundary framework.
-   - Practice: Những bài tập cho bạn để mài dũa kỹ năng.
-   - Final: Bài kiểm tra cuối khoá.
+   - Intro: Introduction to Klaytn and blockchain basics.
+   - SetUp: Set up the environment and tools you will use for DApp development.
+   - Basic: Basic knowledge in Solidity.
+   - Advanced: Advanced knowledge in Solidity.
+   - Contracts: Learn deeply about testing and Foundry framework.
+   - Practice: Exercises for you to hone your skills.
+   - FinalTest: CTF challenge as final exam.
 2. Frontend
-   - Intro: Giới thiệu về UI cho DApp.
+   - Intro: Introduction to UI for DApps.
    - SetUp: Thiết lập môi trường và các công cụ bạn sẽ sử dụng cho phát triển giao diện DApp.
-   - Basic: Các kiến thức căn bản về frameworks, thư viện wagmi và rainbowkit.
-   - Advanced: Tìm hiểu sâu về Transaction lifecycle và các phương án cải thiện UX.
-   - FundMe: Xây dựng giao diện cho FundMe contract
-   - Practice: Những bài tập cho bạn để mài dũa kỹ năng.
-   - FinalTest: Bài kiểm tra cuối khoá.
+   - Basic: Set up the environment and tools you will use for DApp interface development.
+   - Advanced: Learn deeply about Transaction lifecycle and UX improvement options.
+   - FundMe: Build interface for FundMe contract
+   - Practice: Exercises for you to hone your skills.
+   - FinalTest: Final exam.
 
-## Hướng dẫn học
-- Bạn sẽ bắt đầu đi từ phần Solidity rồi đến Frontend và bắt đầu tuần tự theo số thứ tự đã đánh dấu.
-- Bạn đọc các tài liệu trong các thư mục và thực hiện bài tập theo hướng dẫn.
+## Learning instruction
+- You will start from Solidity then go to Frontend and start sequentially according to the marked order.
+- You read the documents in the folders and do the exercises according to the instructions.
